@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag matheuscampelo/repo01:caixa
+      run: docker build . --file Dockerfile --tag matheuscampelo/repo01:$(date +%s)
