@@ -1,2 +1,2 @@
-FROM matheuscampelo/repo01:axula2
+FROM matheuscampelo/repo01:aula2
 COPY temp.txt /
